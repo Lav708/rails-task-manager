@@ -1,3 +1,41 @@
 // Place all the styles related to the tasks controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.title {
+  font-size: 20px;
+  color: #d66f6f;
+  text-decoration: none;
+
+}
+
+.title a{
+  font-size: 20px;
+  color: lightblue;
+ text-decoration: none;
+}
+
+
+.title-home a{
+  font-size: 20px;
+  text-decoration: none;
+  color: #16a2f5;
+}
+
+
+.title-add a{
+  color: #a6ce39
+}
+
+
+.title-delete a{
+  color: #f27676
+}
+
+.megatitle{
+  font-family: Helvetica
+}
+
+.body{
+  margin-top: 100px;
+}

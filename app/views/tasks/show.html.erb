@@ -1,2 +1,20 @@
-<h2><%= @task.description %></h2>
-<p><%= @task.done %></p>
+<center><h2 class="megatitle"> TO DO :<br><br>
+  <%= @task.description %></h2>
+
+  <p class="title"> Statut: </p>
+  <p> <%= @task.done %></p>
+
+  <p class="title"> Created at : <br></p>
+  <p><%= @task.created_at %></p>
+
+  <p class="title"> Updated at: <br></p>
+  <p><%= @task.updated_at %></p>
+
+  <p class="title"> <%= link_to "Add a new Task", new_task_path %>  </p>
+
+  <p class="title"> <%= link_to "Modify this Task", edit_task_path %>  </p>
+
+  <p class="title"> <%= link_to "Delete", task_path, method: :delete, data: {confirm:"Are you sure to delete ?"}%>  </p>
+
+  <p class="title-add"> <%= link_to "Home", tasks_path%>  </p>
+</center>
