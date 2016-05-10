@@ -1,0 +1,8 @@
+<h1> Welcome On your Tasks Manager</h1>
+
+<% @tasks.each do |task| %>
+  <h2><%= task.description %></h2>
+  <p><%= task.done %></p>
+<% end %>
+
+
